@@ -1,0 +1,1 @@
+setblock -122 69 -2 red_concrete

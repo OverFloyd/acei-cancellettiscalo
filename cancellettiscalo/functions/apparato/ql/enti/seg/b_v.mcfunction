@@ -1,0 +1,1 @@
+setblock -122 74 -6 minecraft:lime_wool

@@ -1,0 +1,1 @@
+setblock -118 74 -6 minecraft:lime_terracotta

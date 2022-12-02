@@ -1,0 +1,2 @@
+Boe porta: cdb_bN
+Boe intermedie/terminali: cdbPrev-cdbNext_bN

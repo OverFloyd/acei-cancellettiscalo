@@ -1,0 +1,2 @@
+execute if score @p can_cdb2a > @p static_zero run function cancellettiscalo:apparato/ql/enti/dev/occ/2a
+execute if score @p can_cdb2a = @p static_zero run function cancellettiscalo:apparato/ql/enti/dev/lib/2a

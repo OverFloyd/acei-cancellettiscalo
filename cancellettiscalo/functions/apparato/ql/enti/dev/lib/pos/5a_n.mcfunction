@@ -1,0 +1,1 @@
+setblock -112 78 -6 white_concrete

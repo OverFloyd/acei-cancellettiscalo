@@ -1,0 +1,1 @@
+setblock -123 74 -12 smooth_stone

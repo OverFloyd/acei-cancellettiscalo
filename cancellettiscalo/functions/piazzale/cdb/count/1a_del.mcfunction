@@ -1,0 +1,1 @@
+execute if score @p can_cdb1a > @p static_zero run scoreboard players remove @p can_cdb1a 1

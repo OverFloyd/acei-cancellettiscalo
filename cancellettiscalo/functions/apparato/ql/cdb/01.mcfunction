@@ -1,0 +1,2 @@
+execute if score @p can_cdb01 > @p static_zero run function cancellettiscalo:apparato/ql/cdb/stato/01_occ
+execute if score @p can_cdb01 = @p static_zero run function cancellettiscalo:apparato/ql/cdb/stato/01_lib

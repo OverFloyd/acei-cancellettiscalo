@@ -1,0 +1,1 @@
+setblock -52 69 10 minecraft:red_concrete
