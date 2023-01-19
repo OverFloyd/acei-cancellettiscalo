@@ -9,4 +9,9 @@ function cancellettiscalo:piazzale/dev/check/1b_n
 # QL
 ## Check buffer
 execute if score @p buffer_20 matches 1 run function cancellettiscalo:apparato/ql/enti/dev/lib/pos/1b_n
-execute if score @p buffer_20 matches 0 run function cancellettiscalo:apparato/ql/enti/dev/lib/pos/1b_r
+execute if score @p buffer_20 matches 2 run function cancellettiscalo:apparato/ql/enti/dev/lib/pos/1b_r
+
+###
+
+# Level buffer
+function cancellettiscalo:apparato/logica/buffer/set

@@ -1,1 +1,1 @@
-Marker per bloccamento deviatoi da parte dell'apparato all'atto della costruzione dell'itinerario
+Funzioni per bloccamento deviatoi all'atto della costruzione degli itinerari con CdB liberi. I CdB una volta liberati dal treno provvederanno a sbloccare.

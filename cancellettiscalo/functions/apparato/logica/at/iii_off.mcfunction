@@ -2,4 +2,4 @@
 setblock -106 73 -7 air
 
 # Suoneria
-setblock -123 71 -10 smooth_stone
+function cancellettiscalo:apparato/sound/at/iii_off

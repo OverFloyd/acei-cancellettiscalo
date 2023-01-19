@@ -10,9 +10,25 @@ execute if block -79 68 17 lime_concrete run function cancellettiscalo:piazzale/
 execute if block -79 68 17 red_concrete run function cancellettiscalo:piazzale/cdb/count/3b_del
 execute if block -79 68 17 red_concrete run function cancellettiscalo:piazzale/cdb/count/2a_add
 
-# QL
-function cancellettiscalo:apparato/ql/enti/dev/3b
-function cancellettiscalo:apparato/ql/enti/dev/2a
+## LIMITAZIONE DI VELOCITÀ
+### Controllo consenso -> itinerari che vogliono 2a rovescio di punta
+#### 4-I
+execute if block -79 68 17 red_concrete if block -117 69 -2 lime_concrete run function global:motion/to_south_east
+
+#### 5-I
+execute if block -79 68 17 red_concrete if block -119 69 -2 lime_concrete run function global:motion/to_south_east
+
+### Controllo consenso -> itinerari che vogliono 3b rovescio di punta
+#### I-3
+execute if block -79 68 17 lime_concrete if block -125 69 -2 lime_concrete run function global:motion/to_north_west
+
+#### II-3
+execute if block -79 68 17 lime_concrete if block -122 69 -2 lime_concrete run function global:motion/to_north_west
 
 ## Consenso
 execute if block -79 68 17 lime_concrete run setblock -79 68 17 air
+
+###
+
+# Clear buffer
+function cancellettiscalo:apparato/logica/buffer/clear

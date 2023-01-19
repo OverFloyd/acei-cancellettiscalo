@@ -1,0 +1,1 @@
+setblock -38 73 12 black_wool

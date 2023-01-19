@@ -1,0 +1,1 @@
+function cancellettiscalo:apparato/ql/punti/5_on

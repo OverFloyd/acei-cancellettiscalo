@@ -1,0 +1,1 @@
+setblock -108 76 -6 minecraft:yellow_wool
