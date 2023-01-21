@@ -4,4 +4,4 @@ function cancellettiscalo:apparato/logica/buffer/clear
 ###
 
 # Check se punto è libero
-execute store result score @p buffer_20 if block -123 76 -7 minecraft:redstone_block
+execute store result score Cancelletti buffer if block -123 76 -9 lime_concrete

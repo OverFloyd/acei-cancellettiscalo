@@ -1,1 +1,0 @@
-function cancellettiscalo:apparato/ql/punti/2_on

@@ -1,1 +1,1 @@
-setblock -111 78 -6 minecraft:red_concrete
+setblock -111 78 -6 red_stained_glass

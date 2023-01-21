@@ -4,16 +4,16 @@ execute unless block -68 71 14 rail[shape=east_west] unless block -66 71 17 rail
 
 # Check buffer
 ## Esegui solo se non sono nella posizione richiesta
-execute if score @p buffer_20 matches 1 unless block -76 71 17 rail[shape=east_west] unless block -74 71 14 rail[shape=east_west] run function cancellettiscalo:piazzale/dev/2n
+execute if score Cancelletti buffer matches 1 unless block -76 71 17 rail[shape=east_west] unless block -74 71 14 rail[shape=east_west] run function cancellettiscalo:piazzale/dev/2n_autom
 
 # Check buffer
 ## Esegui solo se non sono nella posizione richiesta
-execute if score @p buffer_20 matches 1 unless block -84 71 20 rail[shape=north_west] unless block -82 71 17 rail[shape=south_east] run function cancellettiscalo:piazzale/dev/3r
+execute if score Cancelletti buffer matches 1 unless block -84 71 20 rail[shape=north_west] unless block -82 71 17 rail[shape=south_east] run function cancellettiscalo:piazzale/dev/3r_autom
 
 # ZONA D'USCITA
 ## Check buffer
 ### Esegui solo se non sono nella posizione richiesta
-execute if score @p buffer_20 matches 1 unless block -114 71 20 rail[shape=east_west] unless block -116 71 17 rail[shape=east_west] run function cancellettiscalo:piazzale/dev/5n
+execute if score Cancelletti buffer matches 1 unless block -114 71 20 rail[shape=east_west] unless block -116 71 17 rail[shape=east_west] run function cancellettiscalo:piazzale/dev/5n_autom
 
 ### Check buffer
-execute if score @p buffer_20 matches 1 run function cancellettiscalo:piazzale/dev/101_bloc
+execute if score Cancelletti buffer matches 1 run function cancellettiscalo:piazzale/dev/101_bloc_autom

@@ -1,1 +1,1 @@
-setblock -124 69 14 minecraft:lime_concrete
+setblock -111 74 -8 air

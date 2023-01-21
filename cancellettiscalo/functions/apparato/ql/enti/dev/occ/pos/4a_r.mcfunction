@@ -1,1 +1,1 @@
-setblock -121 74 -6 blue_concrete
+setblock -121 74 -6 blue_stained_glass

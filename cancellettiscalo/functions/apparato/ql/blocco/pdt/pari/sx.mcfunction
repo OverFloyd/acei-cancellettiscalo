@@ -1,1 +1,1 @@
-setblock -106 74 -6 minecraft:magenta_glazed_terracotta[facing=south]
+setblock -106 74 -6 magenta_glazed_terracotta[facing=south]

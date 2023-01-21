@@ -1,17 +1,10 @@
-# Clear buffer
-function cancellettiscalo:apparato/logica/buffer/clear
+## RESET BUFFER NON SERVE (resettato a 1 alla fine in ogni caso)
 
-###
-
-# Check se il deviatoio è normale
+# Controllo posizione deviatoio
+## Check buffer
 function cancellettiscalo:piazzale/dev/check/2b_n
 
 # QL
 ## Check buffer
-execute if score @p buffer_20 matches 1 run function cancellettiscalo:apparato/ql/enti/dev/occ/pos/2b_n
-execute if score @p buffer_20 matches 2 run function cancellettiscalo:apparato/ql/enti/dev/occ/pos/2b_r
-
-###
-
-# Level buffer
-function cancellettiscalo:apparato/logica/buffer/set
+execute if score Cancelletti buffer matches 1 run function cancellettiscalo:apparato/ql/enti/dev/occ/pos/2b_n
+execute if score Cancelletti buffer matches 0 run function cancellettiscalo:apparato/ql/enti/dev/occ/pos/2b_r

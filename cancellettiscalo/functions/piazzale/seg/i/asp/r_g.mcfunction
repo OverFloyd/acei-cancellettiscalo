@@ -5,3 +5,6 @@ setblock -132 70 53 redstone_torch
 
 # QL
 function cancellettiscalo:apparato/ql/enti/seg/i_g
+
+# Leopolder
+function cancellettiscalo:apparato/sound/leopolder/uvg_on

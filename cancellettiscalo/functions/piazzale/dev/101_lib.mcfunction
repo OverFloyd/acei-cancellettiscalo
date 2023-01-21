@@ -1,11 +1,8 @@
 # Flag bloccamento + lampade
 
 # 101a
-function cancellettiscalo:piazzale/dev/bloc/101a_lib
+function cancellettiscalo:piazzale/cdb/bloc/03_lib
 setblock -123 69 19 air
-
-# 101b
-function cancellettiscalo:piazzale/dev/bloc/101b_lib
 setblock -123 69 24 air
 
 # QL (reset eventuale anomalia precedente)

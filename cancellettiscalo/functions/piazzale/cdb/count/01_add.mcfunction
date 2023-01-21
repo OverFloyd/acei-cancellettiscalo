@@ -1,5 +1,5 @@
 # Failsafe
-execute if score @p can_cdb01 < @p static_zero run scoreboard players set @p can_cdb01 0
+execute if score @p can_cdb01 < GLOBAL static_zero run scoreboard players set @p can_cdb01 0
 
 scoreboard players add @p can_cdb01 1
 
@@ -8,3 +8,6 @@ function cancellettiscalo:apparato/ql/cdb/01
 
 # Occupazione permanente segnale A (a prescindere dall'itinerario attivo)
 function cancellettiscalo:piazzale/seg/a/asp/r
+
+# Perdita controllo deviatoi
+function cancellettiscalo:piazzale/itin/pdt/d/ii-x_dev

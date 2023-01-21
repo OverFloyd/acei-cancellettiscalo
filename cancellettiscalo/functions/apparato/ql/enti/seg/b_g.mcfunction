@@ -1,1 +1,1 @@
-setblock -122 74 -6 minecraft:yellow_wool
+setblock -122 74 -6 yellow_stained_glass

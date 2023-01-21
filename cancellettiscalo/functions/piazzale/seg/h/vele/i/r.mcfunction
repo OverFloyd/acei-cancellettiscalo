@@ -1,1 +1,1 @@
-setblock -107 76 13 minecraft:red_wool
+setblock -107 76 13 red_wool

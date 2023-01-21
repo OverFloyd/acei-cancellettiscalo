@@ -6,7 +6,7 @@ function cancellettiscalo:apparato/logica/buffer/clear
 # CONTROLLO BLOCCO DEVIATOI
 ## 7a, 6b (no zona d'uscita)
 ### Set buffer
-execute store result score @p buffer_20 unless block -136 68 39 red_concrete unless block -124 69 14 red_concrete
+execute store result score Cancelletti buffer unless block -109 74 -8 redstone_block unless block -111 74 -8 redstone_block
 
 ## Anomalia
 function cancellettiscalo:apparato/logica/anomalie/dev

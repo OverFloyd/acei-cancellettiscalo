@@ -1,1 +1,1 @@
-setblock -136 68 39 minecraft:red_concrete
+setblock -109 74 -8 redstone_block

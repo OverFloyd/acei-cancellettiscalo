@@ -5,3 +5,6 @@ setblock -35 71 13 air
 
 # QL
 function cancellettiscalo:apparato/ql/enti/seg/b_r
+
+# Leopolder
+function cancellettiscalo:apparato/sound/leopolder/pdt_off

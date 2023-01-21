@@ -1,0 +1,1 @@
+setblock -118 76 -6 lime_stained_glass

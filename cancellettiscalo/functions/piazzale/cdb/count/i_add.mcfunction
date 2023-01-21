@@ -1,5 +1,5 @@
 # Failsafe
-execute if score @p can_cdbi < @p static_zero run scoreboard players set @p can_cdbi 0
+execute if score @p can_cdbi < GLOBAL static_zero run scoreboard players set @p can_cdbi 0
 
 scoreboard players add @p can_cdbi 1
 

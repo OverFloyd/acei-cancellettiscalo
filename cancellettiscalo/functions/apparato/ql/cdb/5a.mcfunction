@@ -1,0 +1,2 @@
+execute if score @p can_cdb5a > GLOBAL static_zero run function cancellettiscalo:apparato/ql/cdb/stato/5a_occ
+execute if score @p can_cdb5a = GLOBAL static_zero run function cancellettiscalo:apparato/ql/cdb/stato/5a_lib

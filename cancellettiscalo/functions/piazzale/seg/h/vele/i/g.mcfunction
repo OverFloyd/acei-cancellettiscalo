@@ -1,1 +1,1 @@
-setblock -107 76 13 minecraft:yellow_wool
+setblock -107 76 13 yellow_wool

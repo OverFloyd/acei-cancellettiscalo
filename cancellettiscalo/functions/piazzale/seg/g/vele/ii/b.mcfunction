@@ -1,1 +1,1 @@
-setblock -107 75 18 minecraft:black_wool
+setblock -107 75 18 black_wool

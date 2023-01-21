@@ -1,1 +1,1 @@
-setblock -116 76 -6 minecraft:lime_wool
+setblock -116 76 -6 lime_stained_glass

@@ -1,1 +1,1 @@
-setblock -111 78 -6 minecraft:lime_terracotta
+setblock -111 78 -6 green_stained_glass

@@ -1,1 +1,1 @@
-setblock -131 73 50 minecraft:lime_wool
+setblock -131 73 50 lime_wool

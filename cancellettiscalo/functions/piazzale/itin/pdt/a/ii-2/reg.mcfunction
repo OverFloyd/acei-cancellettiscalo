@@ -9,21 +9,21 @@ function cancellettiscalo:piazzale/itin/pdt/a/ii-2/bloc
 
 # Registrazione comando
 ## Check buffer
-execute if score @p buffer_20 matches 1 run function cancellettiscalo:apparato/banco/reg/ii-2
+execute if score Cancelletti buffer matches 1 run function cancellettiscalo:apparato/banco/reg/ii-2
 
 # Libertà cdb
 ## Check buffer
-execute if score @p buffer_20 matches 1 run function cancellettiscalo:piazzale/itin/pdt/a/ii-2/cdb
+execute if score Cancelletti buffer matches 1 run function cancellettiscalo:piazzale/itin/pdt/a/ii-2/cdb
 
 # Manovra deviatoi
 ## FASE 3 NO MANOVRA SCAMBI
 ## Check buffer
-execute if score @p buffer_20 matches 1 run function cancellettiscalo:piazzale/itin/pdt/a/ii-2/dev
+execute if score Cancelletti buffer matches 1 run function cancellettiscalo:piazzale/itin/pdt/a/ii-2/dev
 
 ### CONTROLLO VI PER NON LIBERI TRANSITI
 #### FASE 3
 
-### SPEGNIMENTO PO
+### SPEGNIMENTO PF
 #### FASE 4 BLOCCAMENTO PERCORSO
 
 ### BLOCCAMENTO DEV, SPEGNIMENTO PF
@@ -32,7 +32,7 @@ execute if score @p buffer_20 matches 1 run function cancellettiscalo:piazzale/i
 ## FASE 5
 ### CONTROLLO EFFETTIVO POS DEV + BLOCCAMENTO
 
-## BLOCCAMENTO PUNTO FINE (DIVENTA ROSSO)
+## BLOCCAMENTO PO (DIVENTA ROSSO)
 ### FASE 6
 
 ## SEGNALE A VL
@@ -41,4 +41,4 @@ execute if score @p buffer_20 matches 1 run function cancellettiscalo:piazzale/i
 # LIBERAZIONE
 ## OCC. 1 cdb -> ANNULLAMENTO REGISTRAZIONE, LIBERTA' VIA (IN CONTEMPORANEA)
 ### -> DECADE CONTROLLO ENTI
-### CONTROLLO CDB STAZIONAMENTO CHE SIA LIBERO, CHE IL SEGNALE SIA TORNATO A VI
+### CONTROLLO CDB STAZIONAMENTO CHE SIA LIBERO, CHE IL SEGNALE SIA TORNATO A VI E PERDITA DI CONTROLLO ENTI (CAMBIARE QL CON COLORI CDB)

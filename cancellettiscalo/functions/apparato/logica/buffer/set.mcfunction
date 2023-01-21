@@ -1,1 +1,1 @@
-scoreboard players set @p buffer_20 1
+scoreboard players set Cancelletti buffer 1

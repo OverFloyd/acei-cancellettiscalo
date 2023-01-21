@@ -1,1 +1,1 @@
-setblock -111 78 -6 orange_concrete
+setblock -111 78 -6 orange_stained_glass

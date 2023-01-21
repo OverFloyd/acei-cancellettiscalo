@@ -1,8 +1,8 @@
 # I-1
-setblock -118 74 -6 minecraft:red_concrete
+setblock -118 74 -6 red_stained_glass
 
 # I
-setblock -115 74 -6 minecraft:red_concrete
+setblock -115 74 -6 red_stained_glass
 
 # I-2
-setblock -112 74 -6 minecraft:red_concrete
+setblock -112 74 -6 red_stained_glass

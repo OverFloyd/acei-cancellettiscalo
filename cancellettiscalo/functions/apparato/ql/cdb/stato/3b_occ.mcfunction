@@ -1,0 +1,1 @@
+setblock -118 76 -6 red_stained_glass

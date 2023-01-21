@@ -1,1 +1,0 @@
-scoreboard players set @p buffer_20 2

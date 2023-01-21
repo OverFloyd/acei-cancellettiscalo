@@ -1,1 +1,1 @@
-setblock -119 76 -6 light_gray_concrete
+setblock -119 76 -6 light_gray_stained_glass

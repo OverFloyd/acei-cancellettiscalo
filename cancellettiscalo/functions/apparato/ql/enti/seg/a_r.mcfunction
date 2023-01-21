@@ -1,1 +1,1 @@
-setblock -122 76 -6 minecraft:red_wool
+setblock -122 76 -6 red_stained_glass

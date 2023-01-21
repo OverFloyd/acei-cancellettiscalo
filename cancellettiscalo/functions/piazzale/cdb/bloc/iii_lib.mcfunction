@@ -1,1 +1,1 @@
-setblock -124 72 -18 lime_concrete
+setblock -115 78 -8 air
