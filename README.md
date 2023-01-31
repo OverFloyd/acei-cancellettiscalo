@@ -1,4 +1,6 @@
 # Stazione di Cancelletti Scalo - Apparato ACEI tipo V
+![piano schematico](https://github.com/OverFloyd/acei-cancellettiscalo/blob/master/cancellettiscalo/functions/PS%20v.%202.3.svg)
+
 Funzioni costituenti la logica dell'ACEI della stazione di Cancelletti Scalo, attualmente in fase di attrezzaggio. Per informazioni sulla costituzione del piazzale consultare il piano schematico allegato.
 
 Per le abbreviazioni consultare la relativa [sezione](#abbreviazioni).
