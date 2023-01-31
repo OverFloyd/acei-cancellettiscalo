@@ -7,7 +7,7 @@ function cancellettiscalo:apparato/ql/enti/dev/7b
 execute if score @p can_cdb7b = GLOBAL static_zero run function cancellettiscalo:piazzale/dev/bloc/7b_lib
 
 ## Ripresa controllo
-execute if score @p can_cdb2a = GLOBAL static_zero run function cancellettiscalo:piazzale/dev/contr/regain/7b
+execute if score @p can_cdb7b = GLOBAL static_zero run function cancellettiscalo:piazzale/dev/contr/regain/7b
 
 # Liberazione punto IV
 execute if score @p can_cdb7b = GLOBAL static_zero run function cancellettiscalo:apparato/ql/punti/iv_lib

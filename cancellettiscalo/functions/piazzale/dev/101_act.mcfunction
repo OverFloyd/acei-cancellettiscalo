@@ -7,14 +7,14 @@ function cancellettiscalo:apparato/logica/buffer/clear
 ## Set buffer
 execute store result score Cancelletti buffer if block -122 71 20 rail[shape=south_west] if block -124 71 23 rail[shape=north_east]
 
-# Spegnimento lampada lato Fd
+# Spegnimento lampada lato piazzale
 ## 101a, 101b
 ### Check buffer
 execute if score Cancelletti buffer matches 0 run setblock -123 69 19 air
 execute if score Cancelletti buffer matches 0 run setblock -123 69 24 air
 
 # ANOMALIA MANOVRA INDEBITA
-execute if score Cancelletti buffer matches 0 run function cancellettiscalo:apparato/logica/anomalie/generale_on
+execute if score Cancelletti buffer matches 0 run function cancellettiscalo:apparato/logica/anomalie/stato/generale_on
 
 # QL
 execute if score Cancelletti buffer matches 0 run function cancellettiscalo:apparato/ql/cdb/stato/03_wrng

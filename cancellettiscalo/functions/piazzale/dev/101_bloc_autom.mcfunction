@@ -1,15 +1,17 @@
-# Clear buffer
-function cancellettiscalo:apparato/logica/buffer/clear
-
-###
-
 # Check preventivo tasti soccorso
 ## Set buffer
 function cancellettiscalo:piazzale/dev/check/tb_tc_d
 
-# Flag bloccamento + pos. deviatoi
+# Check che non sia già bloccato (altra operazione in atto)
+execute store result score Cancelletti buffer if block -111 78 -8 air
+
+
+# Check posizione per l'indipendenza (controllo posizione)
+execute if score Cancelletti buffer matches 1 run function cancellettiscalo:piazzale/dev/check/101_n
+
+# Bloccamento Fd
 ## Check buffer
-execute if score Cancelletti buffer matches 1 run function cancellettiscalo:piazzale/dev/bloc/101_occ
+execute if score Cancelletti buffer matches 1 run function cancellettiscalo:piazzale/cdb/bloc/03_bloc
 
 # Accensione lampade -> bloccamento avvenuto correttamente
 ## Check buffer
@@ -20,6 +22,3 @@ execute if score Cancelletti buffer matches 1 run setblock -123 69 24 redstone_t
 
 # ANOMALIE
 function cancellettiscalo:apparato/logica/anomalie/fd
-
-# QL (anomalia)
-execute if score Cancelletti buffer matches 0 run function cancellettiscalo:apparato/ql/cdb/stato/03_wrng

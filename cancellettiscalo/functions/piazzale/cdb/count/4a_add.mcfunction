@@ -8,5 +8,11 @@ function cancellettiscalo:apparato/ql/enti/dev/4a
 # Occupazione permanente segnale B (a prescindere dall'itinerario attivo)
 function cancellettiscalo:piazzale/seg/b/asp/r
 
+# Controllo luci di avanzamento attive
+function cancellettiscalo:apparato/banco/tasti/tz/check/i
+
+## Disattivazione
+execute if score Cancelletti buffer matches 1 run function cancellettiscalo:piazzale/seg/b/box/reset
+
 # Perdita controllo deviatoi
 function cancellettiscalo:piazzale/itin/pdt/d/i-x_dev

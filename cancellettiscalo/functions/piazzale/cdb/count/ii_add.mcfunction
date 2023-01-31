@@ -5,3 +5,6 @@ scoreboard players add @p can_cdbii 1
 
 # QL
 function cancellettiscalo:apparato/ql/cdb/ii
+
+# Sbloccamento circuito (per liberazione elastica)
+function cancellettiscalo:piazzale/cdb/bloc/ii_lib
