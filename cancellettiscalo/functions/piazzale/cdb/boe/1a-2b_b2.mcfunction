@@ -12,14 +12,10 @@ execute if block -71 68 14 red_concrete run function cancellettiscalo:piazzale/c
 
 ## LIMITAZIONE DI VELOCITÀ
 ### Controllo consenso -> itinerari che vogliono 1a rovescio di punta (6-II)
-execute if block -71 68 14 red_concrete if block -120 69 -2 lime_concrete run function global:motion/to_south_east
+execute if block -71 68 14 red_concrete if block -68 68 14 lime_concrete run function global:motion/to_east
 
-### Controllo consenso -> itinerari che vogliono 2b rovescio di punta
-#### I-2
-execute if block -71 68 14 lime_concrete if block -126 69 -2 lime_concrete run function global:motion/to_north_west
-
-#### I-3
-execute if block -71 68 14 lime_concrete if block -125 69 -2 lime_concrete run function global:motion/to_north_west
+### Controllo consenso -> itinerari che vogliono 2b rovescio di punta (I-2/3)
+execute if block -71 68 14 lime_concrete if block -74 68 14 lime_concrete run function global:motion/to_west
 
 ## Consenso
 execute if block -71 68 14 lime_concrete run setblock -71 68 14 air

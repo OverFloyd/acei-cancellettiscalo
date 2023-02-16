@@ -1,4 +1,4 @@
-summon minecart -136 70 61 {CustomName:'"III"', Motion:[-1.0,0.0,0.0]}
+summon hopper_minecart -136 70 61 {CustomName:'"III"', Motion:[-1.0,0.0,0.0]}
 
 # ANNUNCIO TRENI
 ## Controllo segnale a VL

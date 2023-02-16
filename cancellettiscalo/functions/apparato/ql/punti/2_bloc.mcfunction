@@ -1,8 +1,8 @@
 # Lampada
-setblock -113 76 -8 redstone_block
+setblock -114 76 -8 redstone_block
 
 # Vetro
-setblock -113 76 -6 red_stained_glass
+setblock -114 76 -6 red_stained_glass
 
 # Flag occupazione
 function cancellettiscalo:apparato/ql/punti/loop/flag/2_off

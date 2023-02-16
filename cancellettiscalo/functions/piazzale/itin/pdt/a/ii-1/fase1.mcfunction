@@ -17,7 +17,7 @@ execute if score Cancelletti buffer matches 1 store result score Cancelletti buf
 
 ## Controllo bloccamento deviatoi (predisposizione enti)
 ## Check flag
-execute if score Cancelletti buffer matches 1 run function cancellettiscalo:piazzale/itin/pdt/a/ii-1/fase1_bloc_dev
+execute if score Cancelletti buffer matches 1 run function cancellettiscalo:piazzale/itin/pdt/a/common/ii-1_bloc_dev
 
 ## Manovra deviatoi
 ## 1b, 1a, 2b

@@ -1,4 +1,4 @@
-summon minecart -27 71 17 {CustomName:'"II"', Motion:[-1.0,0.0,0.0]}
+summon chest_minecart -27 71 17 {CustomName:'"II"', Motion:[-1.0,0.0,0.0]}
 
 # ANNUNCIO TRENI
 ## Controllo segnale a VL

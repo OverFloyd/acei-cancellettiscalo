@@ -9,11 +9,16 @@ function cancellettiscalo:apparato/blocco/check/pdt_per_sx
 execute if score Cancelletti buffer matches 1 if score @p bca_106 matches 0
 
 # CONTROLLO STAZIONAMENTO
+## Controllo con binario vuoto
 ## Set buffer
-execute if score Cancelletti buffer matches 1 if score @p can_cdbi = GLOBAL static_zero run function cancellettiscalo:piazzale/itin/pdt/a/6-i/fase2_prev_it
+execute if score Cancelletti buffer matches 1 if score @p can_cdbi matches 0 run function cancellettiscalo:piazzale/itin/pdt/a/common/6_prev_it
+
+## Controllo con binario occupato
+## Check buffer
+execute if score Cancelletti buffer matches 0 store result score Cancelletti buffer if score @p can_cdbi > GLOBAL static_zero
 
 ## Libertà cdb
-## I, 2b, 1a, 4a
+## 2b, 1a, 4a
 ## Set buffer
 execute if score Cancelletti buffer matches 1 if score @p can_cdb2b matches 0 if score @p can_cdb1a matches 0 if score @p can_cdb4a matches 0
 

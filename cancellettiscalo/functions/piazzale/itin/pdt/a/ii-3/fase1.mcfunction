@@ -27,7 +27,6 @@ execute if score Cancelletti buffer matches 1 unless block -66 69 17 white_concr
 execute if score Cancelletti buffer matches 1 unless block -76 69 17 white_concrete run schedule function cancellettiscalo:piazzale/dev/2n_autom 10
 execute if score Cancelletti buffer matches 1 unless block -82 69 17 light_blue_concrete run schedule function cancellettiscalo:piazzale/dev/3r_autom 20
 execute if score Cancelletti buffer matches 1 unless block -114 69 20 white_concrete run schedule function cancellettiscalo:piazzale/dev/5n_autom 30
-execute if score Cancelletti buffer matches 1 run schedule function cancellettiscalo:piazzale/dev/101_bloc_autom 40
 
 ## Controllo punto origine libero
 ## Check flag
@@ -52,7 +51,7 @@ function cancellettiscalo:apparato/logica/anomalie/generica
 
 ## INIZIO FASE 2
 ## Check flag
-execute if score Cancelletti buffer matches 1 run schedule function cancellettiscalo:piazzale/itin/pdt/a/ii-3/fase2 40
+execute if score Cancelletti buffer matches 1 run schedule function cancellettiscalo:piazzale/itin/pdt/a/ii-3/fase2 30
 
 ###
 

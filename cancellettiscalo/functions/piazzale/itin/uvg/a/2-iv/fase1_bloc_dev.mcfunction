@@ -3,9 +3,14 @@ function cancellettiscalo:apparato/logica/buffer/clear
 
 ###
 
-# 6a, 7b (ATTENZIONE NO 5b PER ZONA D'USCITA IT. DA PUNTI I / II)
+# 6a, 7b
 ## Set buffer
 execute store result score Cancelletti buffer unless block -111 76 -8 redstone_block unless block -109 76 -8 redstone_block
+
+## Controllo zona d'uscita (5b)
+## Esegui solo se non ci sono arrivi in atto (I-2 AND II-2)
+## Check buffer
+execute if score Cancelletti buffer matches 1 unless block -126 69 -2 lime_concrete unless block -123 69 -2 lime_concrete store result score Cancelletti buffer unless block -112 76 -8 redstone_block
 
 ###
 

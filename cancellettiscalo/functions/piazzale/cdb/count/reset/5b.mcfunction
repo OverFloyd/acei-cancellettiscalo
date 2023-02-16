@@ -3,9 +3,6 @@ scoreboard players set @p can_cdb5b 0
 # QL
 function cancellettiscalo:apparato/ql/enti/dev/5b
 
-# Sbloccamento deviatoio (per liberazione elastica)
-function cancellettiscalo:piazzale/dev/bloc/5b_lib
-
 ## Ripresa controllo
 function cancellettiscalo:piazzale/dev/contr/regain/5b
 

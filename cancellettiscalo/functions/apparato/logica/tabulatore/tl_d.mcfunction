@@ -11,36 +11,45 @@ execute store result score Cancelletti buffer if score Cancelletti tabulatore_2 
 
 ## 2b
 execute store result score Cancelletti buffer if score Cancelletti tabulatore_2 matches 1 if score Cancelletti tabulatore_b matches 1 run function cancellettiscalo:piazzale/dev/bloc/2b_lib
+execute store result score Cancelletti buffer if score Cancelletti tabulatore_2 matches 1 if score Cancelletti tabulatore_b matches 1 run function cancellettiscalo:apparato/logica/tabulatore/lib_pf/1
 
 ## 3a
 execute store result score Cancelletti buffer if score Cancelletti tabulatore_3 matches 1 if score Cancelletti tabulatore_a matches 1 run function cancellettiscalo:piazzale/dev/bloc/3a_lib
+execute store result score Cancelletti buffer if score Cancelletti tabulatore_3 matches 1 if score Cancelletti tabulatore_a matches 1 run function cancellettiscalo:apparato/logica/tabulatore/lib_pf/3
 
 ## 3b
 execute store result score Cancelletti buffer if score Cancelletti tabulatore_3 matches 1 if score Cancelletti tabulatore_b matches 1 run function cancellettiscalo:piazzale/dev/bloc/3b_lib
+execute store result score Cancelletti buffer if score Cancelletti tabulatore_3 matches 1 if score Cancelletti tabulatore_b matches 1 run function cancellettiscalo:apparato/logica/tabulatore/lib_pf/2
 
 ## 4a
 execute store result score Cancelletti buffer if score Cancelletti tabulatore_4 matches 1 if score Cancelletti tabulatore_a matches 1 run function cancellettiscalo:piazzale/dev/bloc/4a_lib
+execute store result score Cancelletti buffer if score Cancelletti tabulatore_4 matches 1 if score Cancelletti tabulatore_a matches 1 run function cancellettiscalo:apparato/logica/tabulatore/lib_pf/i
 
 ## 4b
 execute store result score Cancelletti buffer if score Cancelletti tabulatore_4 matches 1 if score Cancelletti tabulatore_b matches 1 run function cancellettiscalo:piazzale/dev/bloc/4b_lib
 
 ## 5a
 execute store result score Cancelletti buffer if score Cancelletti tabulatore_5 matches 1 if score Cancelletti tabulatore_a matches 1 run function cancellettiscalo:piazzale/dev/bloc/5a_lib
+execute store result score Cancelletti buffer if score Cancelletti tabulatore_5 matches 1 if score Cancelletti tabulatore_a matches 1 run function cancellettiscalo:apparato/logica/tabulatore/lib_pf/4
 
 ## 5b
 execute store result score Cancelletti buffer if score Cancelletti tabulatore_5 matches 1 if score Cancelletti tabulatore_b matches 1 run function cancellettiscalo:piazzale/dev/bloc/5b_lib
+execute store result score Cancelletti buffer if score Cancelletti tabulatore_5 matches 1 if score Cancelletti tabulatore_b matches 1 run function cancellettiscalo:apparato/logica/tabulatore/lib_pf/5
 
 ## 6a
 execute store result score Cancelletti buffer if score Cancelletti tabulatore_6 matches 1 if score Cancelletti tabulatore_a matches 1 run function cancellettiscalo:piazzale/dev/bloc/6a_lib
 
 ## 6b
 execute store result score Cancelletti buffer if score Cancelletti tabulatore_6 matches 1 if score Cancelletti tabulatore_b matches 1 run function cancellettiscalo:piazzale/dev/bloc/6b_lib
+execute store result score Cancelletti buffer if score Cancelletti tabulatore_6 matches 1 if score Cancelletti tabulatore_b matches 1 run function cancellettiscalo:apparato/logica/tabulatore/lib_pf/6
 
 ## 7a
 execute store result score Cancelletti buffer if score Cancelletti tabulatore_7 matches 1 if score Cancelletti tabulatore_a matches 1 run function cancellettiscalo:piazzale/dev/bloc/7a_lib
+execute store result score Cancelletti buffer if score Cancelletti tabulatore_7 matches 1 if score Cancelletti tabulatore_a matches 1 run function cancellettiscalo:apparato/logica/tabulatore/lib_pf/iii
 
 ## 7b
 execute store result score Cancelletti buffer if score Cancelletti tabulatore_7 matches 1 if score Cancelletti tabulatore_b matches 1 run function cancellettiscalo:piazzale/dev/bloc/7b_lib
+execute store result score Cancelletti buffer if score Cancelletti tabulatore_7 matches 1 if score Cancelletti tabulatore_b matches 1 run function cancellettiscalo:apparato/logica/tabulatore/lib_pf/iv
 
 ## 8
 execute store result score Cancelletti buffer if score Cancelletti tabulatore_8 matches 1 run function cancellettiscalo:piazzale/dev/bloc/8_lib
@@ -49,6 +58,7 @@ execute store result score Cancelletti buffer if score Cancelletti tabulatore_8 
 
 ## 01
 execute store result score Cancelletti buffer if score Cancelletti tabulatore_0 matches 1 if score Cancelletti tabulatore_1 matches 1 run function cancellettiscalo:piazzale/cdb/bloc/01_lib
+execute store result score Cancelletti buffer if score Cancelletti tabulatore_0 matches 1 if score Cancelletti tabulatore_1 matches 1 run function cancellettiscalo:apparato/logica/tabulatore/lib_pf/ii
 
 ## 02
 execute store result score Cancelletti buffer if score Cancelletti tabulatore_0 matches 1 if score Cancelletti tabulatore_2 matches 1 run function cancellettiscalo:piazzale/cdb/bloc/02_lib

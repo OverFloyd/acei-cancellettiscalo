@@ -8,7 +8,7 @@ execute if block -63 68 17 lime_concrete run function cancellettiscalo:piazzale/
 
 ## LIMITAZIONE DI VELOCITÀ
 ### Controllo consenso -> itinerari che vogliono 1b rovescio di punta (II-1)
-execute if block -63 68 17 lime_concrete if block -124 69 -2 lime_concrete run function global:motion/to_north_west
+execute if block -63 68 17 lime_concrete if block -66 68 17 lime_concrete run function global:motion/to_west
 
 ## Rimuovi veicolo
 execute if block -63 68 17 red_concrete run function cancellettiscalo:piazzale/cdb/count/1b_del

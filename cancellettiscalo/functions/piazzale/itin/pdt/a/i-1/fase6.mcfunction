@@ -8,6 +8,9 @@ function cancellettiscalo:piazzale/seg/b/asp/g
 # Spegnimento AT
 function cancellettiscalo:apparato/logica/at/i_off
 
+# Suoneria costruzione itinerario
+setblock -127 69 -3 air
+
 ###
 
 # Clear flag

@@ -1,3 +1,6 @@
+# FLAG DISABILITAZIONE E AUTOCOMANDO
+setblock -128 70 3 air
+
 # Reset
 setblock -37 72 19 air
 setblock -37 72 12 air

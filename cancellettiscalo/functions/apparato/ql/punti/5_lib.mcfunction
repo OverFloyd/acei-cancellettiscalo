@@ -1,8 +1,8 @@
 # Lampada
-setblock -117 76 -8 redstone_block
+setblock -116 76 -8 redstone_block
 
 # Vetro
-setblock -117 76 -6 white_stained_glass
+setblock -116 76 -6 white_stained_glass
 
 # Flag occupazione
-setblock -117 76 -9 lime_concrete
+setblock -116 76 -9 lime_concrete

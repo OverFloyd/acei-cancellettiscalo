@@ -1,1 +1,1 @@
-execute if block -123 76 -7 redstone_block run setblock -128 70 -14 redstone_block
+execute if block -124 77 -7 redstone_block run setblock -128 70 -14 redstone_block

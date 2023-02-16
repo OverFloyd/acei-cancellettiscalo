@@ -5,7 +5,7 @@ function cancellettiscalo:apparato/logica/buffer/clear
 
 # Check preventivo tasti soccorso
 ## Set buffer
-function cancellettiscalo:piazzale/dev/check/tb_tc_d
+function cancellettiscalo:piazzale/dev/check/tacc
 
 # Manovra deviatoio
 ## Check buffer

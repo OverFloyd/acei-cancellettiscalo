@@ -1,2 +1,2 @@
 execute if score @p can_cdb8 > GLOBAL static_zero run function cancellettiscalo:apparato/ql/cdb/stato/8_occ
-execute if score @p can_cdb8 = GLOBAL static_zero run function cancellettiscalo:apparato/ql/cdb/stato/8_lib
+execute if score @p can_cdb8 matches 0 run function cancellettiscalo:apparato/ql/cdb/stato/8_lib

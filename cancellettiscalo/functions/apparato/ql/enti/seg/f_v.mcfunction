@@ -1,1 +1,1 @@
-setblock -114 78 -6 lime_stained_glass
+setblock -113 78 -6 lime_wool

@@ -3,7 +3,7 @@
 function cancellettiscalo:apparato/banco/reg/check/i-1
 
 ## Reset flag registrazione
-execute if score Cancelletti buffer matches 1 run setblock -127 69 -2 red_concrete
+execute if score Cancelletti buffer matches 1 run function cancellettiscalo:apparato/banco/distr/i-1
 
 # Liberazione punto 1
 ## Esegui se non ci sono partenze dal punto 1 (flag comandi registrati)
@@ -17,7 +17,7 @@ execute if score Cancelletti buffer matches 1 if block -109 69 -2 red_concrete i
 function cancellettiscalo:apparato/banco/reg/check/ii-1
 
 ## Reset flag registrazione
-execute if score Cancelletti buffer matches 1 run setblock -124 69 -2 red_concrete
+execute if score Cancelletti buffer matches 1 run function cancellettiscalo:apparato/banco/distr/ii-1
 
 # Liberazione punto 1
 ## Esegui se non ci sono partenze dal punto 1 (flag comandi registrati)

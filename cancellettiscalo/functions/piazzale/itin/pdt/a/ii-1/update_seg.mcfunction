@@ -1,10 +1,8 @@
 # Set buffer
-function cancellettiscalo:piazzale/seg/g/check/vi
+function cancellettiscalo:piazzale/seg/h/check/vi
 
 # Check buffer
-function cancellettiscalo:piazzale/seg/a/asp/g
-
-execute if score Cancelletti buffer matches 0 run schedule function cancellettiscalo:piazzale/seg/a/asp/v 10
+function cancellettiscalo:piazzale/seg/a/asp/r_v
 
 # Set buffer (success by default)
 function cancellettiscalo:apparato/logica/buffer/set

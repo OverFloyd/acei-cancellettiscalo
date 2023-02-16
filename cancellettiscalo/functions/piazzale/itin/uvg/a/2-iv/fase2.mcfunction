@@ -9,13 +9,18 @@
 # TODO
 
 # CONTROLLO STAZIONAMENTO
+## Controllo con binario vuoto
 ## Set buffer
-execute store result score Cancelletti buffer if score @p can_cdbii = GLOBAL static_zero run function cancellettiscalo:piazzale/itin/uvg/a/2-iv/fase2_prev_it
+execute store result score Cancelletti buffer if score @p can_cdbii matches 0 run function cancellettiscalo:piazzale/itin/uvg/a/common/2_prev_it
+
+## Controllo con binario occupato
+## Check buffer
+execute if score Cancelletti buffer matches 0 store result score Cancelletti buffer if score @p can_cdbii > GLOBAL static_zero
 
 # LIBERTÀ cdb
-## 2b, 1a, 4a
-## Set buffer
-execute if score Cancelletti buffer matches 1 if score @p can_cdb5b matches 0 if score @p can_cdb6a matches 0 if score @p can_cdb7b matches 0
+## 5b, 6a, 7b
+## Check buffer
+execute if score Cancelletti buffer matches 1 if score @p can_cdb5b matches 0 if score @p can_cdb6a matches 0 if score @p can_cdb04 matches 0 if score @p can_cdb7b matches 0
 
 ## Segnale punto fine a VI (no itinerario di partenza in successione attivo)
 # No per itinerari di partenza (non esiste)

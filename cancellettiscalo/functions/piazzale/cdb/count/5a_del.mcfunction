@@ -3,16 +3,19 @@ execute if score @p can_cdb5a > GLOBAL static_zero run scoreboard players remove
 # QL
 function cancellettiscalo:apparato/ql/enti/dev/5a
 
-# Sbloccamento deviatoio (per liberazione elastica)
-## 5a e 105a-b
-execute if score @p can_cdb5a = GLOBAL static_zero run function cancellettiscalo:piazzale/dev/bloc/5a_lib
-execute if score @p can_cdb5a = GLOBAL static_zero run function cancellettiscalo:piazzale/dev/101_lib
+## Sbloccamento deviatoio (per liberazione elastica)
+### 5a e 105a-b
+execute if score @p can_cdb5a matches 0 run function cancellettiscalo:piazzale/dev/bloc/5a_lib
+execute if score @p can_cdb5a matches 0 run function cancellettiscalo:piazzale/dev/101_lib
 
 ## Ripresa controllo
-execute if score @p can_cdb5a = GLOBAL static_zero run function cancellettiscalo:piazzale/dev/contr/regain/5a
+execute if score @p can_cdb5a matches 0 run function cancellettiscalo:piazzale/dev/contr/regain/5a
 
-# Liberazione punto 3
-execute if score @p can_cdb5a = GLOBAL static_zero run function cancellettiscalo:apparato/ql/punti/3_lib
+## Liberazione punto 3
+execute if score @p can_cdb5a matches 0 run function cancellettiscalo:apparato/ql/punti/3_lib
+
+## Reset flag velocità
+execute if score @p can_cdb5a matches 0 run function cancellettiscalo:piazzale/dev/vel/5a_off
 
 # LIBERAZIONE ZONA D'USCITA
 ## Distruzione comandi registrati da punto III e IV

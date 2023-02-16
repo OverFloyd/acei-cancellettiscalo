@@ -1,7 +1,7 @@
 # FASE 4 - VERIFICA POSIZIONE ENTI
 ## Posizione enti
 ## Set buffer
-function cancellettiscalo:piazzale/itin/uvg/a/common/iv-5_cons_dev
+function cancellettiscalo:piazzale/itin/uvg/a/2-iv/fase4_cons_dev
 
 ## Verifica bloccamento enti e cdb
 ## Check buffer

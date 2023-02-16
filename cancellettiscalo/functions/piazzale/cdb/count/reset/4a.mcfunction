@@ -3,9 +3,6 @@ scoreboard players set @p can_cdb4a 0
 # QL
 function cancellettiscalo:apparato/ql/enti/dev/4a
 
-# Sbloccamento deviatoio (per liberazione elastica)
-function cancellettiscalo:piazzale/dev/bloc/4a_lib
-
 ## Ripresa controllo
 function cancellettiscalo:piazzale/dev/contr/regain/4a
 

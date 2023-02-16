@@ -20,11 +20,11 @@ execute if score Cancelletti buffer matches 1 store result score Cancelletti buf
 execute if score Cancelletti buffer matches 1 run function cancellettiscalo:piazzale/itin/uvg/a/iii-6/fase1_bloc_dev
 
 ## Manovra deviatoi
-## 6b, 7a
+## 7a, 6b
 ## Check flag + controllo
 ### Controllo tasti soccorso
-execute if score Cancelletti buffer matches 1 unless block -124 69 14 white_concrete run function cancellettiscalo:piazzale/dev/6n_autom
-execute if score Cancelletti buffer matches 1 unless block -136 68 39 white_concrete run schedule function cancellettiscalo:piazzale/dev/7n_autom 10
+execute if score Cancelletti buffer matches 1 unless block -136 68 39 white_concrete run function cancellettiscalo:piazzale/dev/7n_autom
+execute if score Cancelletti buffer matches 1 unless block -124 69 14 white_concrete run schedule function cancellettiscalo:piazzale/dev/6n_autom 10
 
 ## Controllo punto origine libero
 ## Check flag

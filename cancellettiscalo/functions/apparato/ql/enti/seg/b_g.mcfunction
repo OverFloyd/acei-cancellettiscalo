@@ -1,1 +1,1 @@
-setblock -122 74 -6 yellow_stained_glass
+setblock -122 74 -6 yellow_wool

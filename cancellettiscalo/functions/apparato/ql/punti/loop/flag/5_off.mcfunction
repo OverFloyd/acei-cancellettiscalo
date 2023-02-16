@@ -1,2 +1,2 @@
 # Set loop flag
-setblock -117 76 -9 red_concrete
+setblock -116 76 -9 red_concrete

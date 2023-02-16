@@ -4,10 +4,10 @@ execute if score @p can_cdb8 > GLOBAL static_zero run scoreboard players remove 
 function cancellettiscalo:apparato/ql/enti/dev/8
 
 # Sbloccamento deviatoio (per liberazione elastica)
-execute if score @p can_cdb8 = GLOBAL static_zero run function cancellettiscalo:piazzale/dev/bloc/8_lib
+execute if score @p can_cdb8 matches 0 run function cancellettiscalo:piazzale/dev/bloc/8_lib
 
 ## Ripresa controllo
-execute if score @p can_cdb8 = GLOBAL static_zero run function cancellettiscalo:piazzale/dev/contr/regain/8
+execute if score @p can_cdb8 matches 0 run function cancellettiscalo:piazzale/dev/contr/regain/8
 
 ###
 

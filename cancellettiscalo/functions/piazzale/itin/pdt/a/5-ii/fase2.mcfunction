@@ -1,0 +1,45 @@
+# FASE 2 - LIBERTÀ DELLA VIA
+## CONDIZIONI DI BLOCCO
+### Orientamento corretto
+### Set buffer
+function cancellettiscalo:apparato/blocco/check/pdt_per_dx
+
+### Prima sezione libera
+### Check buffer
+execute if score Cancelletti buffer matches 1 if score @p bca_106d matches 0
+
+# CONTROLLO STAZIONAMENTO
+## Controllo con binario vuoto
+## Check buffer
+execute if score Cancelletti buffer matches 1 if score @p can_cdbii matches 0 run function cancellettiscalo:piazzale/itin/pdt/a/common/5_prev_it
+
+## Controllo con binario occupato
+## Check buffer
+execute if score Cancelletti buffer matches 0 store result score Cancelletti buffer if score @p can_cdbii > GLOBAL static_zero
+
+## Libertà cdb
+## 3b, 2a, 1b, 01
+## Set buffer
+execute if score Cancelletti buffer matches 1 if score @p can_cdb3b matches 0 if score @p can_cdb2a matches 0 if score @p can_cdb1b matches 0 if score @p can_cdb01 matches 0
+
+## Segnale punto fine a VI (no itinerario di partenza in successione attivo)
+# No per itinerari di partenza (non esiste)
+
+## Segnale punto origine a VI (no altro itinerario già in atto)
+## Controllo luci rosse
+## Check buffer
+execute if score Cancelletti buffer matches 1 run function cancellettiscalo:piazzale/itin/common/seg/vi/d
+
+###
+
+# ANOMALIA
+function cancellettiscalo:apparato/logica/anomalie/generica
+
+## INIZIO FASE 3
+## Check buffer
+execute if score Cancelletti buffer matches 1 run function cancellettiscalo:piazzale/itin/pdt/a/5-ii/fase3
+
+###
+
+# Clear buffer
+function cancellettiscalo:apparato/logica/buffer/clear

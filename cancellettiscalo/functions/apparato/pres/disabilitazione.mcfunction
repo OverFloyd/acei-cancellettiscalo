@@ -1,3 +1,6 @@
+# FLAG DISABILITAZIONE E AUTOCOMANDO
+setblock -128 70 3 redstone_torch
+
 # Reset
 setblock -37 72 19 air
 setblock -37 72 12 air
