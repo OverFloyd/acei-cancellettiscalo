@@ -1,3 +1,16 @@
-#execute if block -109 76 -18 redstone_lamp[lit=true] run function cancellettiscalo:apparato/banco/tasti/tb_s/av/1_on
+# Controllo chiave in serratura
+## Set buffer
+#function cancellettiscalo:apparato/banco/tasti/pb
 
-execute if block -109 76 -18 redstone_lamp[lit=false] run function cancellettiscalo:piazzale/seg/h/asp/r
+# Funzione Tb
+## Check buffer
+#execute if score Cancelletti buffer matches 1 run function cancellettiscalo:apparato/banco/tasti/tb_s/av/1_on
+
+# Funzione S
+## Check buffer
+execute if score Cancelletti buffer matches 0 run function cancellettiscalo:piazzale/seg/h/asp/r
+
+###
+
+# Clear flag
+function cancellettiscalo:apparato/logica/buffer/clear

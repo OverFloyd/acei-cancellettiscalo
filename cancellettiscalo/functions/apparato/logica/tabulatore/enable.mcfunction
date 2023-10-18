@@ -1,8 +1,5 @@
-# Attivazione lampada su tabulatore
-setblock -100 75 -14 redstone_block
-
-# Attivazione suoneria
-setblock -98 70 -14 redstone_block
+# Attivazione lampada su tabulatore e suoneria
+setblock -99 71 -14 redstone_block
 
 # Attivazione tabulatore
 function cancellettiscalo:apparato/logica/tabulatore/scores/create

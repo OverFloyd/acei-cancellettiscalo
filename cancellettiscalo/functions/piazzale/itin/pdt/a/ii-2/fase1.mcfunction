@@ -23,10 +23,10 @@ execute if score Cancelletti buffer matches 1 run function cancellettiscalo:piaz
 ## 1b, 2a, 3b
 ## Check flag + controllo
 ### Controllo tasti soccorso
-execute if score Cancelletti buffer matches 1 unless block -66 69 17 white_concrete run function cancellettiscalo:piazzale/dev/1n_autom
-execute if score Cancelletti buffer matches 1 unless block -76 69 17 white_concrete run schedule function cancellettiscalo:piazzale/dev/2n_autom 10
-execute if score Cancelletti buffer matches 1 unless block -82 69 17 white_concrete run schedule function cancellettiscalo:piazzale/dev/3n_autom 20
-execute if score Cancelletti buffer matches 1 unless block -116 69 17 white_concrete run schedule function cancellettiscalo:piazzale/dev/5n_autom 30
+execute if score Cancelletti buffer matches 1 run function cancellettiscalo:piazzale/dev/1n_autom
+execute if score Cancelletti buffer matches 1 run schedule function cancellettiscalo:piazzale/dev/2n_autom 10
+execute if score Cancelletti buffer matches 1 run schedule function cancellettiscalo:piazzale/dev/3n_autom 20
+execute if score Cancelletti buffer matches 1 run schedule function cancellettiscalo:piazzale/dev/5n_autom 30
 
 ## Controllo punto origine libero
 ## Check flag

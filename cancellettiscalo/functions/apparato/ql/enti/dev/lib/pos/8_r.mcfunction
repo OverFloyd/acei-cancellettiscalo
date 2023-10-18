@@ -1,1 +1,0 @@
-setblock -106 80 -6 light_blue_stained_glass

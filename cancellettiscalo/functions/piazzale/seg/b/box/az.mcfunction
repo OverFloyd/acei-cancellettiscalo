@@ -1,10 +1,5 @@
-# Lampada + rotaia
-function cancellettiscalo:piazzale/seg/b/vele/i/r
-function cancellettiscalo:piazzale/seg/b/vele/ii/b
-setblock -35 71 13 redstone_torch
-
-# QL
-function cancellettiscalo:apparato/ql/enti/seg/b_r
+# Aspetto rosso
+function cancellettiscalo:piazzale/seg/b/asp/r
 
 # AVANZAMENTO
 ## Reset

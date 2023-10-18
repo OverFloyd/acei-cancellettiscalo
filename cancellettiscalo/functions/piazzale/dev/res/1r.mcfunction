@@ -1,18 +1,32 @@
+# Check posizione diversa da quella richiesta
+## Set buffer
+function cancellettiscalo:piazzale/dev/check/1a_n
+execute if score Cancelletti buffer matches 1 run function cancellettiscalo:piazzale/dev/check/1b_n
+
 # Perdi il controllo per manovra
 ## Update QL
-function cancellettiscalo:piazzale/dev/contr/1a_off
-schedule function cancellettiscalo:piazzale/dev/contr/1b_off 1s
+execute if score Cancelletti buffer matches 1 run function cancellettiscalo:piazzale/dev/contr/1a_off
+execute if score Cancelletti buffer matches 1 run schedule function cancellettiscalo:piazzale/dev/contr/1b_off 1s
 
 # Manovra
 ## Posto prima per corretta informazione sul QL
-function cancellettiscalo:piazzale/dev/pos/1a_r
-function cancellettiscalo:piazzale/dev/pos/1b_r
+execute if score Cancelletti buffer matches 1 run function cancellettiscalo:piazzale/dev/pos/1a_r
+execute if score Cancelletti buffer matches 1 run function cancellettiscalo:piazzale/dev/pos/1b_r
 
 ## Loop
-function cancellettiscalo:apparato/ql/enti/dev/loop/1a_off
-schedule function cancellettiscalo:apparato/ql/enti/dev/loop/1b_off 1s
+execute if score Cancelletti buffer matches 1 run function cancellettiscalo:apparato/ql/enti/dev/loop/1a_off
+execute if score Cancelletti buffer matches 1 run schedule function cancellettiscalo:apparato/ql/enti/dev/loop/1b_off 1s
 
 # Riprendi il controllo
+## Check buffer
+execute if score Cancelletti buffer matches 1 run schedule function cancellettiscalo:piazzale/dev/contr/1a_r 4s
+execute if score Cancelletti buffer matches 1 run schedule function cancellettiscalo:piazzale/dev/contr/1b_r 5s
+
 ## Update QL
-schedule function cancellettiscalo:piazzale/dev/contr/1a_r 4s
-schedule function cancellettiscalo:piazzale/dev/contr/1b_r 5s
+execute if score Cancelletti buffer matches 1 run schedule function cancellettiscalo:apparato/ql/enti/dev/1a 4s
+execute if score Cancelletti buffer matches 1 run schedule function cancellettiscalo:apparato/ql/enti/dev/1b 5s
+
+###
+
+# Level buffer
+function cancellettiscalo:apparato/logica/buffer/set

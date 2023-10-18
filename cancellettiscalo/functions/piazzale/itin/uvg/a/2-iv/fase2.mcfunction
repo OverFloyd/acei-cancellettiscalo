@@ -8,14 +8,13 @@
 ### Check buffer
 # TODO
 
-# CONTROLLO STAZIONAMENTO
-## Controllo con binario vuoto
-## Set buffer
-execute store result score Cancelletti buffer if score @p can_cdbii matches 0 run function cancellettiscalo:piazzale/itin/uvg/a/common/2_prev_it
+### BLOCCO ELETTRICO MANUALE
+#### Set buffer
+function linea:bem/can-blc/can/check_cs
 
-## Controllo con binario occupato
+# CONTROLLO STAZIONAMENTO / ITINERARIO D'ARRIVO ATTIVO
 ## Check buffer
-execute if score Cancelletti buffer matches 0 store result score Cancelletti buffer if score @p can_cdbii > GLOBAL static_zero
+execute if score Cancelletti buffer matches 1 run function cancellettiscalo:piazzale/itin/uvg/a/common/2_prev_it
 
 # LIBERTÀ cdb
 ## 5b, 6a, 7b

@@ -1,0 +1,1 @@
+setblock -124 76 -6 gray_wool

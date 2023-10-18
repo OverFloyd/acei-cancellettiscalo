@@ -1,1 +1,2 @@
-setblock -112 76 -6 lime_stained_glass
+# Utilizzato in sola mancanza di controllo del deviatoio
+setblock -112 76 -6 gray_wool

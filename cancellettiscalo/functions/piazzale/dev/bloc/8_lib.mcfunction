@@ -1,1 +1,0 @@
-setblock -106 80 -8 air

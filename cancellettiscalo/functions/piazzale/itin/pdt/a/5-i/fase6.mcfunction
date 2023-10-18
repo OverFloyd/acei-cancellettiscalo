@@ -7,7 +7,9 @@ function cancellettiscalo:piazzale/dev/vel/2a_on
 
 ## Segnale
 function cancellettiscalo:piazzale/seg/d/asp/r_g
-schedule function cancellettiscalo:piazzale/seg/d/asp/r_v 5
+
+### Disponi al verde se la sezione 5 è libera
+execute if score PDT_CAN bca_5 matches 0 run schedule function cancellettiscalo:piazzale/seg/d/asp/r_v 5
 
 ## Check seg. precedente
 ### Seg. I

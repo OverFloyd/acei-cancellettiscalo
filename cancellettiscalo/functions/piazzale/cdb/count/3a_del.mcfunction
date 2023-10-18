@@ -4,7 +4,7 @@ execute if score @p can_cdb3a > GLOBAL static_zero run scoreboard players remove
 function cancellettiscalo:apparato/ql/enti/dev/3a
 
 ## Sbloccamento deviatoio (per liberazione elastica)
-execute if score @p can_cdb3a matches 0 run function cancellettiscalo:piazzale/dev/bloc/3a_lib
+execute if score @p can_cdb3a matches 0 run schedule function cancellettiscalo:piazzale/dev/bloc/3a_lib 1s
 
 ## Ripresa controllo
 execute if score @p can_cdb3a matches 0 run function cancellettiscalo:piazzale/dev/contr/regain/3a

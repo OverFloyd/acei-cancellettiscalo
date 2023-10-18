@@ -8,14 +8,9 @@
 ### Check buffer
 # TODO
 
-# CONTROLLO STAZIONAMENTO
-## Controllo con binario vuoto
+# CONTROLLO STAZIONAMENTO / ITINERARIO D'ARRIVO ATTIVO
 ## Set buffer
-execute store result score Cancelletti buffer if score @p can_cdbi matches 0 run function cancellettiscalo:piazzale/itin/uvg/a/common/1_prev_it
-
-## Controllo con binario ingombro
-## Check buffer
-execute if score Cancelletti buffer matches 0 store result score Cancelletti buffer if score @p can_cdbi > GLOBAL static_zero
+function cancellettiscalo:piazzale/itin/uvg/a/common/1_prev_it
 
 # LIBERTÀ cdb
 ## 6b, 05, 7a

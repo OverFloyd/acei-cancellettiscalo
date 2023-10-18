@@ -1,0 +1,1 @@
+setblock -106 74 -6 red_wool

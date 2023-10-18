@@ -1,49 +1,46 @@
 # DEVIATOI
 
-## 1a
-execute store result score Cancelletti buffer if score Cancelletti tabulatore_1 matches 1 if score Cancelletti tabulatore_a matches 1 run function cancellettiscalo:piazzale/cdb/count/reset/1a
+## 1a (11)
+execute store result score Cancelletti buffer if score Cancelletti tabulatore_1 matches 2 run function cancellettiscalo:piazzale/cdb/count/reset/1a
 
-## 1b
-execute store result score Cancelletti buffer if score Cancelletti tabulatore_1 matches 1 if score Cancelletti tabulatore_b matches 1 run function cancellettiscalo:piazzale/cdb/count/reset/1b
+## 1b (12)
+execute store result score Cancelletti buffer if score Cancelletti tabulatore_1 matches 1 if score Cancelletti tabulatore_2 matches 1 run function cancellettiscalo:piazzale/cdb/count/reset/1b
 
-## 2a
-execute store result score Cancelletti buffer if score Cancelletti tabulatore_2 matches 1 if score Cancelletti tabulatore_a matches 1 run function cancellettiscalo:piazzale/cdb/count/reset/2a
+## 2a (21)
+execute store result score Cancelletti buffer if score Cancelletti tabulatore_2 matches 1 if score Cancelletti tabulatore_1 matches 1 run function cancellettiscalo:piazzale/cdb/count/reset/2a
 
-## 2b
-execute store result score Cancelletti buffer if score Cancelletti tabulatore_2 matches 1 if score Cancelletti tabulatore_b matches 1 run function cancellettiscalo:piazzale/cdb/count/reset/2b
+## 2b (22)
+execute store result score Cancelletti buffer if score Cancelletti tabulatore_2 matches 2 run function cancellettiscalo:piazzale/cdb/count/reset/2b
 
-## 3a
-execute store result score Cancelletti buffer if score Cancelletti tabulatore_3 matches 1 if score Cancelletti tabulatore_a matches 1 run function cancellettiscalo:piazzale/cdb/count/reset/3a
+## 3a (31)
+execute store result score Cancelletti buffer if score Cancelletti tabulatore_3 matches 1 if score Cancelletti tabulatore_1 matches 1 run function cancellettiscalo:piazzale/cdb/count/reset/3a
 
-## 3b
-execute store result score Cancelletti buffer if score Cancelletti tabulatore_3 matches 1 if score Cancelletti tabulatore_b matches 1 run function cancellettiscalo:piazzale/cdb/count/reset/3b
+## 3b (32)
+execute store result score Cancelletti buffer if score Cancelletti tabulatore_3 matches 1 if score Cancelletti tabulatore_2 matches 1 run function cancellettiscalo:piazzale/cdb/count/reset/3b
 
-## 4a
-execute store result score Cancelletti buffer if score Cancelletti tabulatore_4 matches 1 if score Cancelletti tabulatore_a matches 1 run function cancellettiscalo:piazzale/cdb/count/reset/4a
+## 4a (41)
+execute store result score Cancelletti buffer if score Cancelletti tabulatore_4 matches 1 if score Cancelletti tabulatore_1 matches 1 run function cancellettiscalo:piazzale/cdb/count/reset/4a
 
-## 4b
-execute store result score Cancelletti buffer if score Cancelletti tabulatore_4 matches 1 if score Cancelletti tabulatore_b matches 1 run function cancellettiscalo:piazzale/cdb/count/reset/4b
+## 4b (42)
+execute store result score Cancelletti buffer if score Cancelletti tabulatore_4 matches 1 if score Cancelletti tabulatore_2 matches 1 run function cancellettiscalo:piazzale/cdb/count/reset/4b
 
-## 5a
-execute store result score Cancelletti buffer if score Cancelletti tabulatore_5 matches 1 if score Cancelletti tabulatore_a matches 1 run function cancellettiscalo:piazzale/cdb/count/reset/5a
+## 5a (51)
+execute store result score Cancelletti buffer if score Cancelletti tabulatore_5 matches 1 if score Cancelletti tabulatore_1 matches 1 run function cancellettiscalo:piazzale/cdb/count/reset/5a
 
-## 5b
-execute store result score Cancelletti buffer if score Cancelletti tabulatore_5 matches 1 if score Cancelletti tabulatore_b matches 1 run function cancellettiscalo:piazzale/cdb/count/reset/5b
+## 5b (52)
+execute store result score Cancelletti buffer if score Cancelletti tabulatore_5 matches 1 if score Cancelletti tabulatore_2 matches 1 run function cancellettiscalo:piazzale/cdb/count/reset/5b
 
-## 6a
-execute store result score Cancelletti buffer if score Cancelletti tabulatore_6 matches 1 if score Cancelletti tabulatore_a matches 1 run function cancellettiscalo:piazzale/cdb/count/reset/6a
+## 6a (61)
+execute store result score Cancelletti buffer if score Cancelletti tabulatore_6 matches 1 if score Cancelletti tabulatore_1 matches 1 run function cancellettiscalo:piazzale/cdb/count/reset/6a
 
-## 6b
-execute store result score Cancelletti buffer if score Cancelletti tabulatore_6 matches 1 if score Cancelletti tabulatore_b matches 1 run function cancellettiscalo:piazzale/cdb/count/reset/6b
+## 6b (62)
+execute store result score Cancelletti buffer if score Cancelletti tabulatore_6 matches 1 if score Cancelletti tabulatore_2 matches 1 run function cancellettiscalo:piazzale/cdb/count/reset/6b
 
-## 7a
-execute store result score Cancelletti buffer if score Cancelletti tabulatore_7 matches 1 if score Cancelletti tabulatore_a matches 1 run function cancellettiscalo:piazzale/cdb/count/reset/7a
+## 7a (71)
+execute store result score Cancelletti buffer if score Cancelletti tabulatore_7 matches 1 if score Cancelletti tabulatore_1 matches 1 run function cancellettiscalo:piazzale/cdb/count/reset/7a
 
-## 7b
-execute store result score Cancelletti buffer if score Cancelletti tabulatore_7 matches 1 if score Cancelletti tabulatore_b matches 1 run function cancellettiscalo:piazzale/cdb/count/reset/7b
-
-## 8
-execute store result score Cancelletti buffer if score Cancelletti tabulatore_8 matches 1 run function cancellettiscalo:piazzale/cdb/count/reset/8
+## 7b (72)
+execute store result score Cancelletti buffer if score Cancelletti tabulatore_7 matches 1 if score Cancelletti tabulatore_2 matches 1 run function cancellettiscalo:piazzale/cdb/count/reset/7b
 
 # CIRCUITI SEMPLICI
 
@@ -62,14 +59,14 @@ execute store result score Cancelletti buffer if score Cancelletti tabulatore_0 
 ## 05
 execute store result score Cancelletti buffer if score Cancelletti tabulatore_0 matches 1 if score Cancelletti tabulatore_5 matches 1 run function cancellettiscalo:piazzale/cdb/count/reset/05
 
-## I
-execute store result score Cancelletti buffer if score Cancelletti tabulatore_i matches 1 run function cancellettiscalo:piazzale/cdb/count/reset/i
+## I (101)
+execute store result score Cancelletti buffer if score Cancelletti tabulatore_1 matches 2 if score Cancelletti tabulatore_0 matches 1 run function cancellettiscalo:piazzale/cdb/count/reset/i
 
-## II
-execute store result score Cancelletti buffer if score Cancelletti tabulatore_i matches 2 run function cancellettiscalo:piazzale/cdb/count/reset/ii
+## II (102)
+execute store result score Cancelletti buffer if score Cancelletti tabulatore_1 matches 1 if score Cancelletti tabulatore_0 matches 1 if score Cancelletti tabulatore_2 matches 1 run function cancellettiscalo:piazzale/cdb/count/reset/ii
 
-## III
-execute store result score Cancelletti buffer if score Cancelletti tabulatore_i matches 3 run function cancellettiscalo:piazzale/cdb/count/reset/iii
+## III (103)
+execute store result score Cancelletti buffer if score Cancelletti tabulatore_1 matches 1 if score Cancelletti tabulatore_0 matches 1 if score Cancelletti tabulatore_3 matches 1 run function cancellettiscalo:piazzale/cdb/count/reset/iii
 
 ###
 

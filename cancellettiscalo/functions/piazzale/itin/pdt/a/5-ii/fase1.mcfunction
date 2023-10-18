@@ -9,7 +9,7 @@ function cancellettiscalo:apparato/logica/anomalie/reset_all
 # FASE 1 - REGISTRAZIONE COMANDO
 ## Controllo punto finale libero
 ## Set flag
-function cancellettiscalo:apparato/ql/punti/check/i
+function cancellettiscalo:apparato/ql/punti/check/ii
 
 ## Controllo libertà 1° cdb
 ## Check flag
@@ -23,9 +23,9 @@ execute if score Cancelletti buffer matches 1 run function cancellettiscalo:piaz
 ## 3b, 2a, 1b
 ## Check flag + controllo
 ### Controllo tasti soccorso
-execute if score Cancelletti buffer matches 1 unless block -82 69 17 white_concrete run function cancellettiscalo:piazzale/dev/3n_autom
-execute if score Cancelletti buffer matches 1 unless block -76 69 17 white_concrete run schedule function cancellettiscalo:piazzale/dev/2n_autom 10
-execute if score Cancelletti buffer matches 1 unless block -66 69 17 white_concrete run schedule function cancellettiscalo:piazzale/dev/1n_autom 20
+execute if score Cancelletti buffer matches 1 run function cancellettiscalo:piazzale/dev/3n_autom
+execute if score Cancelletti buffer matches 1 run schedule function cancellettiscalo:piazzale/dev/2n_autom 10
+execute if score Cancelletti buffer matches 1 run schedule function cancellettiscalo:piazzale/dev/1n_autom 20
 
 ## Controllo punto origine libero
 ## Check flag

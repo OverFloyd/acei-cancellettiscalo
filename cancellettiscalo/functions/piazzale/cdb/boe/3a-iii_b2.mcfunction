@@ -15,6 +15,17 @@ execute if block -87 68 20 red_concrete run function cancellettiscalo:piazzale/c
 #### 4-I
 execute if block -87 68 20 red_concrete if block -84 68 20 lime_concrete run function global:motion/to_east
 
+###
+
+# SIMULAZIONE
+execute if block -87 68 20 lime_concrete run function cancellettiscalo:simulazione/running/part/in/rename/i-3
+execute if block -87 68 20 lime_concrete run function cancellettiscalo:simulazione/running/part/in/rename/ii-3
+
+execute if block -87 68 20 red_concrete run function cancellettiscalo:simulazione/running/part/out/rename/4-i
+execute if block -87 68 20 red_concrete run function cancellettiscalo:simulazione/running/part/out/rename/4-ii
+
+###
+
 ## Consenso
 execute if block -87 68 20 lime_concrete run setblock -87 68 20 air
 

@@ -7,4 +7,5 @@ scoreboard players add @p can_cdbii 1
 function cancellettiscalo:apparato/ql/cdb/ii
 
 # Sbloccamento circuito (per liberazione elastica)
-function cancellettiscalo:piazzale/cdb/bloc/ii_lib
+## Sbloccamento fatto qui e non in liberazione perché come il treno entra in stazionamento ha termine l'itinerario di arrivo
+schedule function cancellettiscalo:piazzale/cdb/bloc/ii_lib 1s

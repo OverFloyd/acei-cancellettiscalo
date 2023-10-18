@@ -1,1 +1,1 @@
-setblock -118 78 -6 white_stained_glass
+setblock -118 78 -6 white_wool

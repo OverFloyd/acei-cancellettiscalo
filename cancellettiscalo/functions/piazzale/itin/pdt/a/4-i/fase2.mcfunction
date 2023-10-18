@@ -6,7 +6,7 @@ function cancellettiscalo:apparato/blocco/check/pdt_per_sx
 
 ### Prima sezione libera
 ### Check buffer
-execute if score Cancelletti buffer matches 1 if score @p bca_106 matches 0
+execute if score Cancelletti buffer matches 1 store result score Cancelletti buffer if score PDT_CAN bca_7 matches 0
 
 ## Libertà cdb
 ## (III occupato), 3a, 3b, 2a, 2b, 1a, 4a

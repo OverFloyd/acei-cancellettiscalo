@@ -1,1 +1,1 @@
-setblock -120 76 -6 light_blue_stained_glass
+setblock -120 76 -6 light_blue_wool

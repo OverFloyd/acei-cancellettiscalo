@@ -2,7 +2,7 @@
 setblock -123 74 -8 redstone_block
 
 # Vetro
-setblock -123 74 -6 black_stained_glass
+setblock -123 74 -6 gray_wool
 
 # Flag occupazione
 function cancellettiscalo:apparato/ql/punti/loop/flag/i_off

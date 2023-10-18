@@ -1,0 +1,1 @@
+setblock -109 76 -6 light_gray_wool

@@ -4,7 +4,9 @@ function cancellettiscalo:apparato/ql/punti/5_bloc
 
 ## Segnale
 function cancellettiscalo:piazzale/seg/d/asp/g
-schedule function cancellettiscalo:piazzale/seg/d/asp/v 5
+
+### Disponi al verde se la sezione 5d è libera
+execute if score PDT_CAN bca_5d matches 0 run schedule function cancellettiscalo:piazzale/seg/d/asp/v 5
 
 ## Check seg. precedente
 ### Seg. I

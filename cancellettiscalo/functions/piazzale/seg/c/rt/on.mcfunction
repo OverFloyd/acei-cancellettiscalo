@@ -1,0 +1,4 @@
+setblock -94 71 13 redstone_torch
+
+# SIMULAZIONE
+function cancellettiscalo:simulazione/running/part/out/move_6

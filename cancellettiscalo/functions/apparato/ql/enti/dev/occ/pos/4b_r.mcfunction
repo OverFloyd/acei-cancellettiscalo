@@ -1,1 +1,0 @@
-setblock -121 72 -6 blue_stained_glass

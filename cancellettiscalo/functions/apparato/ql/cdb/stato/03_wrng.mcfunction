@@ -1,1 +1,2 @@
-setblock -111 78 -6 orange_stained_glass
+# ASSOCIATO A Fd
+setblock -111 78 -6 orange_wool

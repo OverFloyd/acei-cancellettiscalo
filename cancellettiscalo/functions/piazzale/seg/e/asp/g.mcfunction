@@ -1,6 +1,6 @@
 # Lampada + rotaia
 setblock -91 76 19 yellow_wool
-setblock -94 71 19 redstone_torch
+function cancellettiscalo:piazzale/seg/e/rt/on
 
 # QL
 function cancellettiscalo:apparato/ql/enti/seg/e_g

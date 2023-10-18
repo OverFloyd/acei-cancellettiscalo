@@ -6,3 +6,6 @@ setblock -115 74 -8 redstone_block
 
 # II
 setblock -112 74 -8 redstone_block
+
+# Aggiornamento stato QL
+function cancellettiscalo:apparato/ql/cdb/

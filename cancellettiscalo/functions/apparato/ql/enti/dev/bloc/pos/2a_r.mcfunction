@@ -1,0 +1,1 @@
+setblock -119 76 -6 blue_wool

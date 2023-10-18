@@ -7,11 +7,15 @@ function cancellettiscalo:apparato/logica/buffer/clear
 ## Set buffer
 function cancellettiscalo:piazzale/dev/check/tacc
 
-# Manovra deviatoi
+# Check se esiste il controllo
 ## Check buffer
-execute if score Cancelletti buffer matches 1 unless block -76 69 17 white_concrete run function cancellettiscalo:piazzale/dev/res/2n
-
-###
+execute if score Cancelletti buffer matches 1 run function cancellettiscalo:piazzale/dev/contr/check/2a
+execute if score Cancelletti buffer matches 1 run function cancellettiscalo:piazzale/dev/contr/check/2b
 
 # ANOMALIE
-schedule function cancellettiscalo:apparato/logica/anomalie/dev 5s
+## Qui perché non si vuole segnalare come errore il deviatoio già in posizione voluta
+function cancellettiscalo:apparato/logica/anomalie/dev
+
+# Manovra deviatoi
+## Check buffer
+execute if score Cancelletti buffer matches 1 run function cancellettiscalo:piazzale/dev/res/2n

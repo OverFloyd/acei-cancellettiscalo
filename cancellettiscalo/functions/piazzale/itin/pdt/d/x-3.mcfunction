@@ -10,8 +10,8 @@ execute if score Cancelletti buffer matches 1 run function cancellettiscalo:appa
 execute if score Cancelletti buffer matches 1 if block -114 69 -2 red_concrete if block -113 69 -2 red_concrete run function cancellettiscalo:apparato/ql/punti/3_lib
 
 ## Liberazione zona d'uscita
-execute if score Cancelletti buffer matches 1 run function cancellettiscalo:piazzale/dev/bloc/5a_lib
-execute if score Cancelletti buffer matches 1 run function cancellettiscalo:piazzale/dev/101_lib
+execute if score Cancelletti buffer matches 1 run schedule function cancellettiscalo:piazzale/dev/bloc/5a_lib 1s
+execute if score Cancelletti buffer matches 1 run schedule function cancellettiscalo:piazzale/dev/101_lib 1s
 
 ###
 
@@ -27,5 +27,5 @@ execute if score Cancelletti buffer matches 1 run function cancellettiscalo:appa
 execute if score Cancelletti buffer matches 1 if block -114 69 -2 red_concrete if block -113 69 -2 red_concrete run function cancellettiscalo:apparato/ql/punti/3_lib
 
 ## Liberazione zona d'uscita
-execute if score Cancelletti buffer matches 1 run function cancellettiscalo:piazzale/dev/bloc/5a_lib
-execute if score Cancelletti buffer matches 1 run function cancellettiscalo:piazzale/dev/101_lib
+execute if score Cancelletti buffer matches 1 run schedule function cancellettiscalo:piazzale/dev/bloc/5a_lib 1s
+execute if score Cancelletti buffer matches 1 run schedule function cancellettiscalo:piazzale/dev/101_lib 1s

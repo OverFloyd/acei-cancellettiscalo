@@ -16,4 +16,4 @@ schedule function cancellettiscalo:piazzale/dev/bloc/5a_occ 12
 schedule function cancellettiscalo:piazzale/dev/101_bloc_autom 14
 
 ## INIZIO FASE 4
-schedule function cancellettiscalo:piazzale/itin/pdt/a/ii-3/fase4 6s
+schedule function cancellettiscalo:piazzale/itin/pdt/a/ii-3/fase4 7s

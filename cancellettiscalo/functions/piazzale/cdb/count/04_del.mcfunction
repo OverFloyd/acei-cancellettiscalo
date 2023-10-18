@@ -4,4 +4,4 @@ execute if score @p can_cdb04 > GLOBAL static_zero run scoreboard players remove
 function cancellettiscalo:apparato/ql/cdb/04
 
 # Sbloccamento circuito (per liberazione elastica)
-execute if score @p can_cdb04 matches 0 run function cancellettiscalo:piazzale/cdb/bloc/04_lib
+execute if score @p can_cdb04 matches 0 run schedule function cancellettiscalo:piazzale/cdb/bloc/04_lib 1s

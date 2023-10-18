@@ -1,7 +1,7 @@
 ## ESEGUI SOLO SE IN STATO LAMPEGGIANTE
 
 # Vetro
-execute if block -133 68 41 red_concrete run setblock -109 76 -6 black_stained_glass
+execute if block -133 68 41 red_concrete run setblock -109 76 -6 gray_wool
 
 # Check loop flag & switch pos
 ## Non si usa cancellettiscalo:piazzale/dev/check/nX_p perché fa interferenza col buffer

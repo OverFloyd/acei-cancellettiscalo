@@ -1,1 +1,2 @@
-setblock -115 76 -6 red_stained_glass
+# IN OGNI CASO = ROSSO
+setblock -115 76 -6 red_wool

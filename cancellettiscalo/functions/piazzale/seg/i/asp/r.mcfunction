@@ -1,7 +1,7 @@
 # Lampada + rotaia
 function cancellettiscalo:piazzale/seg/i/vele/i/r
 function cancellettiscalo:piazzale/seg/i/vele/ii/b
-setblock -132 70 53 air
+function cancellettiscalo:piazzale/seg/i/rt/off
 
 # QL
 function cancellettiscalo:apparato/ql/enti/seg/i_r

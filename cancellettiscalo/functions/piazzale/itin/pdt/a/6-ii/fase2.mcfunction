@@ -6,16 +6,11 @@ function cancellettiscalo:apparato/blocco/check/pdt_per_dx
 
 ### Prima sezione libera
 ### Check buffer
-execute if score Cancelletti buffer matches 1 if score @p bca_106d matches 0
+execute if score Cancelletti buffer matches 1 store result score Cancelletti buffer if score PDT_CAN bca_7d matches 0
 
-# CONTROLLO STAZIONAMENTO
-## Controllo con binario vuoto
-## Set buffer
-execute if score Cancelletti buffer matches 1 if score @p can_cdbi matches 0 run function cancellettiscalo:piazzale/itin/pdt/a/common/6_prev_it
-
-## Controllo con binario occupato
+# CONTROLLO STAZIONAMENTO / ITINERARIO D'ARRIVO ATTIVO
 ## Check buffer
-execute if score Cancelletti buffer matches 0 store result score Cancelletti buffer if score @p can_cdbi > GLOBAL static_zero
+execute if score Cancelletti buffer matches 1 run function cancellettiscalo:piazzale/itin/pdt/a/common/6_prev_it
 
 ## Libertà cdb
 ## 2b, 1a, 1b, 01

@@ -8,10 +8,14 @@
 ### Check buffer
 # TODO
 
+### BLOCCO ELETTRICO MANUALE
+#### Set buffer
+function linea:bem/can-blc/can/check_cs
+
 # LIBERTÀ cdb
 ## (III occupato), 03, 5a, 5b, 6a, 04, 7b
-## Set buffer
-function cancellettiscalo:piazzale/itin/uvg/a/3-iv/fase2_cdb
+## Check buffer
+execute if score Cancelletti buffer matches 1 run function cancellettiscalo:piazzale/itin/uvg/a/3-iv/fase2_cdb
 
 ## Segnale punto fine a VI (no itinerario di partenza in successione attivo)
 # No per itinerari di partenza (non esiste)

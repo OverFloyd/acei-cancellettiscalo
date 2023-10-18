@@ -5,8 +5,8 @@ function cancellettiscalo:apparato/ql/enti/dev/5a
 
 ## Sbloccamento deviatoio (per liberazione elastica)
 ### 5a e 105a-b
-execute if score @p can_cdb5a matches 0 run function cancellettiscalo:piazzale/dev/bloc/5a_lib
-execute if score @p can_cdb5a matches 0 run function cancellettiscalo:piazzale/dev/101_lib
+execute if score @p can_cdb5a matches 0 run schedule function cancellettiscalo:piazzale/dev/bloc/5a_lib 1s
+execute if score @p can_cdb5a matches 0 run schedule function cancellettiscalo:piazzale/dev/101_lib 2s
 
 ## Ripresa controllo
 execute if score @p can_cdb5a matches 0 run function cancellettiscalo:piazzale/dev/contr/regain/5a

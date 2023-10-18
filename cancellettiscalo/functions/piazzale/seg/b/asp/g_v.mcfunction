@@ -1,7 +1,7 @@
 # Lampada + rotaia
 function cancellettiscalo:piazzale/seg/b/vele/i/g
 function cancellettiscalo:piazzale/seg/b/vele/ii/v
-setblock -35 71 13 redstone_torch
+function cancellettiscalo:piazzale/seg/b/rt/on
 
 # QL
 function cancellettiscalo:apparato/ql/enti/seg/b_v
